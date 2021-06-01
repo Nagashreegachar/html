@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="./htmlimg.png"></link>
+</head>
+<body bgcolor="pink">
+    <h1 align="center"><font color="blue">HTML</font></h1>
+    <nav>
+        <p align="left">Hyper Text Markup Language is the standard markup language for Web pages. With HTML you can create your own Website. </p>
+        <a href="#one">Heading tags</a>
+        <a href="#two">Formating tags</a>
+        <a href="#three">Table</a>
+        <a href="#four">Form</a>
+        <a href="#five">Image</a>
+        <a href="#six">Audio and Video</a>
+        <a href="#seven">Lists</a>
+        <a href="#eight">Marquee</a>
+        <a href="#nine">MetaEmojis &#128151</a>
+    </nav><br>
+    <div id="one">
+        <h2><u>Heading tags</u></h2>
+        <h1>Hello Web</h1>
+        <h2>Hello Web</h2>
+        <h3>Hello Web</h3>
+        <h4>Hello Web</h4>
+        <h5>Hello Web</h5>
+        <h6>Hello Web</h6>
+    </div><br>
+    <div id="two">
+        <h2><u>Formating Tags</u></h2>
+        <p>
+        Bold text --<b>India</b><br><br>
+        Italic text --<i>India</i><br><br>
+        Underlined text--<u>India</u><br><br>
+        Strike text-- <strike>Covid</strike><br><br>
+        Monospaced text-- <tt>Banglore</tt><br><br>
+        Super text-- 25<sup>2</sup>=625<br><br>
+        Subsript text-- H<sub>2</sub>O<br><br>
+        Insert text-- <ins>Hello</ins><br><br>
+        Deleted text-- <del>Lockdown</del><br><br>
+        Larger text-- Iam <big>Nagashree G</big><br><br>
+        Smaller text-- Iam <small>Nagu</small><br><br>
+        Span text-- Hello <span style="color:aqua">world</span>
+        </p>
+    </div><br>
+    <div id="three">
+        <h2><u>Tables</u></h2>
+        <table BORDER=2>
+        <tr><th>SNo</th><th>name</th><th>course</th></tr>
+        <tr><td>1</td><td>nagu</td><td>ECE</td></tr>
+        <tr><td>2</td><td>pavi</td><td>CSE</td></tr>
+        <tr><td>3</td><td>madhu</td><td>ECE</td></tr>
+
+        </table>
+    </div><br>
+    <div id="four">
+        <h2><u>This is Form</u></h2>
+        <form>
+            <label>Username:</label>
+            <input type="text" minlength="4" maxlength="10"placeholder="enter your name"> <br><br>
+            <label>Possword:</label>
+            <input type="Password" placeholder="enter your password"> <br><br>
+            <label>email:</label>
+            <input type="email" placeholder="enter your mail id"> <br><br>
+            <label>address:</label>
+            <textarea cols="10%" rows="8%"></textarea> <br><br>
+            <label>DOB:</label>
+            <input type="date" placeholder="enter your DOB"> <br><br>
+            <label>week:</label>
+            <input type="week"> <br><br>
+            <label>time:</label>
+            <input type="time"> <br><br>
+            color:<input type="color"> <br><br>
+            <label>age:</label>
+            <input type="number" min="18" max="50"> <br><br>
+            <label>url:</label>
+            <input type="url"> <br><br>
+            <label>gender:</label>
+            <input type="radio" name="s"  >male 
+            <input type="radio" name="s" > female
+            <input type="radio" name="s" disabled> others <br><br>
+            <label>skills:</label>
+            <input type="checkbox">java 
+            <input type="checkbox">c
+            <input type="checkbox">html
+            <label>upload markscard</label>
+            <input type="file"> <br><br>
+            <label>State</label>
+            <select>
+                <option>Karnataka</option>
+                <option>Andra pradesh</option>
+                <option>Tamil nadu</option>
+                <option>kerala</option>
+            </select> <br><br>
+            <input type="button" value="click">
+            <input type="reset" >
+            <input type="Submit" value="login">
+                        
+        </form>
+    </div><br>
+    <div id="five">
+        <h2><u>This is image</u></h2>
+        <img src="./krishna.jpeg" width="40%" height="45%" alt="jai sri krishna">
+    </div><br>
+    <div id="six">
+        <h2><u>Audio & Video</u></h2>
+        <audio controls src="[iSongs.info] 01 - Okey Oka Lokam.mp3"></audio>
+        <video controls src="VID20210207174350.mp4" width="40%" height="45%"></video>
+    </div><br>
+    <div id="seven">
+        <h2><u>Lists</u></h2>
+            <h3>ORDER LIST</h3>
+            <ol><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol type="A"><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol type=a><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol type=i><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol type=I><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol start=20><li>html</li><li>css</li><li>javascript</li></ol>
+            <ol type=a start=20><li>html</li><li>css</li><li>javascript</li></ol>
+            <h3>UNORDER LIST</h3>
+            <ul><li>html</li><li>css</li><li>javascript</li></ul>
+            <ul type=circle><li>html</li><li>css</li><li>javascript</li></ul>
+            <ul type=square><li>html</li><li>css</li><li>javascript</li></ul>
+    </div><br>
+    <div id="eight">
+        <h2><u>Marquee</u></h2>
+        <marquee><h3>hello world</h3></marquee>
+        <marquee direction="up"><h3>hello worldq1</h3></marquee>
+        <marquee direction="down"><h3>hello world2</h3></marquee>
+        <marquee direction="right"><h3>hello world3</h3></marquee>
+    </div><br>
+    <div id="nine">
+        <h2><u>Meta Emojis</u></h2>
+        <p>&#128525 &#128525 &#128526 &#128131 &#128076 &#128035 &#128123</p>
+    </div>
+</body>
+</html>
